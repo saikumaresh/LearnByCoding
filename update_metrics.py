@@ -1,32 +1,46 @@
 import os
+import subprocess
 
-def count_lines_of_code():
-    total_loc = 0
-    allowed_extensions = {'.py', '.txt'}  # Specify the allowed file extensions
-    for root, dirs, files in os.walk('.'):
-        for file in files:
-            if not any(file.endswith(ext) for ext in allowed_extensions):
-                continue  # Skip files that do not have the specified extensions
+base_path = os.getcwd()  # Get current working directory
+
+def count_files_and_directories(base_path):
+    total_files = 0
+    total_dirs = 0
+    python_files = 0
+    total_lines = 0
+    
+    # Traverse all directories and files starting from base_path
+    for dirpath, dirnames, filenames in os.walk(base_path):
+        # Skip hidden directories and files
+        dirnames[:] = [d for d in dirnames if not d.startswith('.')]
+        filenames = [f for f in filenames if not f.startswith('.')]  # Skip hidden files
+        
+        total_dirs += 1  # Count each directory found
+        for file in filenames:
+            total_files += 1  # Count each file found
+            if file.endswith('.py'):
+                python_files += 1  # Count Python files
+            
+            # Use 'errors="ignore"' to skip unreadable files
             try:
-                with open(os.path.join(root, file), 'r', encoding='utf-8') as f:
-                    total_loc += len(f.readlines())
-            except (UnicodeDecodeError, FileNotFoundError) as e:
-                print(f"Skipping file due to decoding issue: {file}")
-                continue
-    return total_loc
+                with open(os.path.join(dirpath, file), 'r', errors='ignore') as f:
+                    total_lines += len(f.readlines())  # Count lines in the file
+            except Exception as e:
+                print(f"Skipping file due to error: {file}. Error: {e}")
 
-def count_commits():
-    # This is a placeholder. Implement your commit counting logic here.
-    return 0
+    return total_files, total_dirs, total_lines, python_files
 
-def calculate_code_coverage():
-    # This is a placeholder. Implement your code coverage calculation here.
-    return 0.0
+def count_commits(base_path):
+    try:
+        output = subprocess.check_output(['git', 'rev-list', '--count', 'HEAD'], cwd=base_path)
+        return int(output.strip())
+    except subprocess.CalledProcessError as e:
+        print("Error while counting commits:", e)
+        return 0
 
 def update_readme():
-    total_loc = count_lines_of_code()  # Count lines of code
-    total_commits = count_commits()  # Count total commits
-    code_coverage = calculate_code_coverage()  # Calculate code coverage
+    total_commits = count_commits(base_path) 
+    total_files, total_dirs, total_lines, python_files = count_files_and_directories(base_path) 
 
     readme_path = 'README.md'
     try:
@@ -45,9 +59,11 @@ def update_readme():
 
     # Update the metrics section
     metrics_content = [
-        f'Total Number of Lines of Code: {total_loc}\n','\n',
+        f'Total Number of Files: {total_files}\n','\n',
+        f'Total Number of Directories: {total_dirs}\n','\n',
+        f'Total Number of Python files: {python_files}\n','\n',
+        f'Total Number of Lines of Code: {total_lines}\n','\n',
         f'Total Number of Commits: {total_commits}\n','\n',
-        f'Percentage of Code Coverage: {code_coverage:.2f}%\n',
     ]
 
     content[start_index:end_index] = metrics_content

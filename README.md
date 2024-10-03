@@ -7,11 +7,16 @@ Feel free to navigate through the folders to find different topics and practice 
 ## 📈 Metrics Section
 
 <!-- metrics-section-start -->
-Total Number of Lines of Code: 268
+Total Number of Files: 6
 
-Total Number of Commits: 0
+Total Number of Directories: 26
 
-Percentage of Code Coverage: 0.00%
+Total Number of Python files: 5
+
+Total Number of Lines of Code: 402
+
+Total Number of Commits: 15
+
 <!-- metrics-section-end -->
 
 ## 📂 Repository Structure

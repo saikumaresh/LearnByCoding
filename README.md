@@ -19,7 +19,7 @@ Feel free to navigate through the folders to find different topics and practice 
 
 <!-- metrics-section-end -->
 
-This section is automated using update_metrics.py.
+*This section is automated using update_metrics.py.*
 
 ## 📂 Repository Structure
 

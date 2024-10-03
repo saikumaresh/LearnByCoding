@@ -38,7 +38,7 @@ The repository is structured based on the type of problems or topics I am workin
 
 ## 📅 Daily Progress
 
-I strive to solve at least one problem each day as part of my **365 Days of Code Challenge** with Scaler. You can track my progress here and follow along on [LinkedIn](https://www.linkedin.com/in/saikumaresh/) where I post updates on the challenge regularly.
+I strive to solve at least one problem each day as part of my **365 Days of Code Challenge** with Scaler. You can track my progress here and follow along on [LinkedIn](https://www.linkedin.com/in/sai-kumaresh/) where I post updates on the challenge regularly.
 
 ## 📊 Problems Covered
 

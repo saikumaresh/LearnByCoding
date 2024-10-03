@@ -8,7 +8,9 @@ Feel free to navigate through the folders to find different topics and practice 
 
 <!-- metrics-section-start -->
 Total Number of Lines of Code: 268
+
 Total Number of Commits: 0
+
 Percentage of Code Coverage: 0.00%
 <!-- metrics-section-end -->
 

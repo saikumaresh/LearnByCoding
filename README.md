@@ -4,6 +4,11 @@ Welcome to my GitHub repository, where I practice coding challenges daily to sha
 
 Feel free to navigate through the folders to find different topics and practice problems. Each folder contains solutions and explanations for coding problems I've worked on. 📝
 
+## 📈 Metrics Section
+
+<!-- metrics-section-start -->
+<!-- metrics-section-end -->
+
 ## 📂 Repository Structure
 
 The repository is structured based on the type of problems or topics I am working on. Here's a general idea of the structure:

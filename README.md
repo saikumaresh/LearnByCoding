@@ -19,6 +19,8 @@ Feel free to navigate through the folders to find different topics and practice 
 
 <!-- metrics-section-end -->
 
+This section is automated using update_metrics.py.
+
 ## 📂 Repository Structure
 
 The repository is structured based on the type of problems or topics I am working on. Here's a general idea of the structure:

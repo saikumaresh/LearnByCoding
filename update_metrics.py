@@ -45,9 +45,9 @@ def update_readme():
 
     # Update the metrics section
     metrics_content = [
-        f'Total Number of Lines of Code: {total_loc}\n',
-        f'Total Number of Commits: {total_commits}\n',
-        f'Percentage of Code Coverage: {code_coverage:.2f}%\n',
+        f'Total Number of Lines of Code: {total_loc}\n\n',
+        f'Total Number of Commits: {total_commits}\n\n',
+        f'Percentage of Code Coverage: {code_coverage:.2f}%\n\n',
     ]
 
     content[start_index:end_index] = metrics_content

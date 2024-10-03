@@ -97,7 +97,7 @@ While this repository primarily serves as my personal coding journal, contributi
 If you have any questions, feel free to reach out:
 
 - **Email**: [saikumaresh007@gmail.com](mailto:saikumaresh007@gmail.com)
-- **LinkedIn**: [Sai Kumaresh](https://www.linkedin.com/in/saikumaresh/)
+- **LinkedIn**: [Sai Kumaresh](https://www.linkedin.com/in/sai-kumaresh/)
 
 ## ⭐ Acknowledgements
 

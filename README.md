@@ -12,7 +12,6 @@ Total Number of Lines of Code: 268
 Total Number of Commits: 0
 
 Percentage of Code Coverage: 0.00%
-
 <!-- metrics-section-end -->
 
 ## 📂 Repository Structure

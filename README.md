@@ -13,9 +13,9 @@ Feel free to navigate through the folders to find different topics and practice 
 
 🐍 Total Number of Python files: 5 
 
-📜 Total Number of Lines of Code: 407 
+📜 Total Number of Lines of Code: 408 
 
-✅ Total Number of Commits: 17 
+✅ Total Number of Commits: 20 
 
 <!-- metrics-section-end -->
 
@@ -57,7 +57,6 @@ The repository is structured based on the type of problems or topics I am workin
 
 I strive to solve at least one problem each day as part of my **365 Days of Code Challenge** with Scaler. You can track my progress here and follow along on [LinkedIn](https://www.linkedin.com/in/sai-kumaresh/) where I post updates on the challenge regularly.
 
-## 📊 Problems Covered
 
 ## 📊 Problems Covered
 

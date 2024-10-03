@@ -7,15 +7,15 @@ Feel free to navigate through the folders to find different topics and practice 
 ## 📈 Metrics Section
 
 <!-- metrics-section-start -->
-📁 Total Number of Files: 6 
+📁 Total Number of Files: 8 
 
 📂 Total Number of Directories: 26 
 
-🐍 Total Number of Python files: 5 
+🐍 Total Number of Python files: 7 
 
-📜 Total Number of Lines of Code: 408 
+📜 Total Number of Lines of Code: 500 
 
-✅ Total Number of Commits: 20 
+✅ Total Number of Commits: 23 
 
 <!-- metrics-section-end -->
 

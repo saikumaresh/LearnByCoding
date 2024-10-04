@@ -35,8 +35,8 @@ def count_files_and_directories(base_path):
 
 def count_commits(base_path):
     try:
-        # Get the count of all commits on the current branch
-        output = subprocess.check_output(['git', 'rev-list', '--count', 'HEAD'], cwd=base_path)
+        # Get the count of all commits on the main branch
+        output = subprocess.check_output(['git', 'rev-list', '--count', 'main'], cwd=base_path)
         return int(output.strip())
     except subprocess.CalledProcessError as e:
         print("Error while counting commits:", e)

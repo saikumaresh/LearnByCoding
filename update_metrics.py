@@ -33,27 +33,14 @@ def count_files_and_directories(base_path):
 
     return total_files, total_dirs, total_lines, python_files
 
-# def count_commits(base_path):
-#     try:
-#         # Get the count of commits in the repository
-#         output = subprocess.check_output(['git', 'rev-list', '--count', 'HEAD'], cwd=base_path)
-#         return int(output.strip())
-#     except subprocess.CalledProcessError as e:
-#         print("Error while counting commits:", e)
-#         return 0
-    
 def count_commits(base_path):
     try:
-        # Fetch the latest commits to ensure we have the most up-to-date information
-        subprocess.check_call(['git', 'fetch'], cwd=base_path)
-
-        # Get the count of commits in the repository
+        # Get the count of all commits on the current branch
         output = subprocess.check_output(['git', 'rev-list', '--count', 'HEAD'], cwd=base_path)
         return int(output.strip())
     except subprocess.CalledProcessError as e:
         print("Error while counting commits:", e)
         return 0
-
 
 def update_readme():
     # Get the base path to the repository root

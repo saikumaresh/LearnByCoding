@@ -13,7 +13,7 @@ Feel free to navigate through the folders to find different topics and practice 
 
 🐍 Total Number of Python files: 8 
 
-📜 Total Number of Lines of Code: 510 
+📜 Total Number of Lines of Code: 523 
 
 ✅ Total Number of Commits: 1 
 

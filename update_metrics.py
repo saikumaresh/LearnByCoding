@@ -66,11 +66,11 @@ def update_readme():
 
     # Update the metrics section
     metrics_content = [
-        f'📁 Total Number of Files: {total_files} \n',
-        f'📂 Total Number of Directories: {total_dirs} \n',
-        f'🐍 Total Number of Python files: {python_files} \n',
-        f'📜 Total Number of Lines of Code: {total_lines} \n',
-        f'✅ Total Number of Commits: {total_commits} \n',
+        f'📁 Total Number of Files: {total_files} \n','\n',
+        f'📂 Total Number of Directories: {total_dirs} \n','\n',
+        f'🐍 Total Number of Python files: {python_files} \n','\n',
+        f'📜 Total Number of Lines of Code: {total_lines} \n','\n',
+        f'✅ Total Number of Commits: {total_commits} \n','\n',
     ]
 
     content[start_index:end_index] = metrics_content

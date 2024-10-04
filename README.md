@@ -114,7 +114,7 @@ If you have any questions, feel free to reach out:
 
 ## ⭐ Acknowledgements
 
-A big thank you to **Scaler** and various online coding platforms like **LeetCode**, **HackerRank**, and **CodeSignal** for providing challenging problems that keep me learning every day.
+A big thank you to **Scaler** and various online coding platforms like **LeetCode**, **GeeksforGeeks**, **InterviewBit**, **CodeChef**, and **Unstop** for providing challenging problems that keep me learning every day.
 
 ---
 

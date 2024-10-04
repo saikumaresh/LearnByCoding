@@ -10,7 +10,7 @@ Feel free to navigate through the folders to find different topics and practice 
 📁 Total Number of Files: 8 
 📂 Total Number of Directories: 26 
 🐍 Total Number of Python files: 7 
-📜 Total Number of Lines of Code: 509 
+📜 Total Number of Lines of Code: 504 
 ✅ Total Number of Commits: 1 
 <!-- metrics-section-end -->
 

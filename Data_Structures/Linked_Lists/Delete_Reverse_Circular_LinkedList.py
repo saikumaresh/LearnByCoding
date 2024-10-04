@@ -1,5 +1,7 @@
 # Deletion and Reverse in Circular Linked List
 
+# https://www.geeksforgeeks.org/problems/deletion-and-reverse-in-linked-list/1
+
 # Difficulty: Medium
 
 # Given a Circular Linked List. The task is to delete the given node, key in the circular linked list, and reverse the circular linked list.

@@ -29,10 +29,8 @@
 # Example Explanation
 
 # Explanation 1:
-
 #   The only occurrence is at second position.
 # Explanation 2:
-
 #   Bob occures at first and third position.
 
 class Solution:

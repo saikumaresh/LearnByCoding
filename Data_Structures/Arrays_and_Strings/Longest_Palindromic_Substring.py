@@ -40,6 +40,7 @@
 # Explanation 2:
 # We can see that longest palindromic substring is of length 4 and the string is "abba".
 
+# Code Solution
 class Solution:
     def longestPalindrome(self, A):
         if len(A) == 0 or A == A[::-1]:

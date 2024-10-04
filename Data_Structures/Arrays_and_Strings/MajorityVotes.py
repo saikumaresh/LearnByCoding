@@ -52,7 +52,8 @@ class Solution:
             else:
                 count_1 -= 1
                 count_2 -= 1
-
+                
+                
         # Step 2: Verify the candidates
         count_1 = 0
         count_2 = 0

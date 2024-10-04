@@ -42,3 +42,5 @@ class Solution:
             if A[i] in vowels:
                 count += len(A) - i
         return count % 10003
+    
+    

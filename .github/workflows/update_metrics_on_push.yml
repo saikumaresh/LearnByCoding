@@ -9,6 +9,8 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.GH_TOKEN }}
 
     - name: Set up Python
       uses: actions/setup-python@v3
@@ -23,14 +25,7 @@ jobs:
         git config --local user.email "saikumaresh007@gmail.com"
         git config --local user.name "Sai Kumaresh"
         git add README.md
-        git commit -m "Updated metrics in README.md"
-        git push
-      env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
-      continue-on-error: true  # In case there are no changes to commit
+        git commit -m "Updated metrics in README.md" || echo "No changes to commit"
 
     - name: Push Changes
-      run: |
-        git push "https://${{ secrets.GH_TOKEN }}@github.com/saikumaresh/CodeFiles.git" HEAD:main
-      env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      run: git push origin HEAD:main

@@ -33,20 +33,10 @@ def count_files_and_directories(base_path):
 
     return total_files, total_dirs, total_lines, python_files
 
-def count_commits(base_path):
-    try:
-        # Get the count of all commits on the main branch
-        output = subprocess.check_output(['git', 'rev-list', '--count', 'main'], cwd=base_path)
-        return int(output.strip())
-    except subprocess.CalledProcessError as e:
-        print("Error while counting commits:", e)
-        return 0
-
 def update_readme():
     # Get the base path to the repository root
     base_path = get_repo_root()
     
-    total_commits = count_commits(base_path) 
     total_files, total_dirs, total_lines, python_files = count_files_and_directories(base_path) 
 
     readme_path = os.path.join(base_path, 'README.md')  # Ensure correct path to README.md
@@ -70,7 +60,6 @@ def update_readme():
         f'📂 Total Number of Directories: {total_dirs} \n','\n',
         f'🐍 Total Number of Python files: {python_files} \n','\n',
         f'📜 Total Number of Lines of Code: {total_lines} \n','\n',
-        f'✅ Total Number of Commits: {total_commits} \n','\n',
     ]
 
     content[start_index:end_index] = metrics_content

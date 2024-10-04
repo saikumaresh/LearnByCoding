@@ -15,7 +15,7 @@ Feel free to navigate through the folders to find different topics and practice 
 
 📜 Total Number of Lines of Code: 500 
 
-✅ Total Number of Commits: 23 
+✅ Total Number of Commits: 1 
 
 <!-- metrics-section-end -->
 

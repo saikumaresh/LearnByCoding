@@ -11,13 +11,13 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 ## 📈 Metrics Section
 
 <!-- metrics-section-start -->
-📁 Total Number of Files: 12 
+📁 Total Number of Files: 13 
 
 📂 Total Number of Directories: 26 
 
-🐍 Total Number of Python files: 11 
+🐍 Total Number of Python files: 12 
 
-📜 Total Number of Lines of Code: 822 
+📜 Total Number of Lines of Code: 853 
 
 <!-- metrics-section-end -->
 

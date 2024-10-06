@@ -39,6 +39,7 @@ The repository is structured based on the type of problems or topics I am workin
 │   ├── Heaps_and_Priority_Queues/
 │   ├── Graphs/
 │   ├── Hashing/
+│   ├── Math/
 │   ├── Advanced_Data_Structures/
 │   ├── Strings_and_Pattern_Matching/
 │   └── Bit_Manipulation/

@@ -66,6 +66,7 @@ The repository is structured based on the type of problems or topics I am workin
   - Heaps and Priority Queues
   - Graphs
   - Hashing
+  - Math
   - Advanced Data Structures
   - Strings and Pattern Matching
   - Bit Manipulation

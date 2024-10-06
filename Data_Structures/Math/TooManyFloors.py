@@ -1,4 +1,6 @@
-# ### Problem Statement: Too Many Floors
+# Too Many Floors
+
+# Problem Statement: 
 # Chef and Chefina are residing in a hotel. There are 10 floors in the hotel, and each floor consists of 10 rooms.
 
 # - Floor 1 consists of room numbers 1 to 10.

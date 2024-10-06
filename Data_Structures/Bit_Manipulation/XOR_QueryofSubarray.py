@@ -1,5 +1,7 @@
 # XOR Queries of a Subarray
 
+# https://unstop.com/code/challenge-assessment/250551?moduleId=436
+
 # Problem Statement
 
 # You are given an array arr of positive integers. You are also given the array queries where queries[i] = [lefti, righti].

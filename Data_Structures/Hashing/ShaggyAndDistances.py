@@ -47,7 +47,6 @@ class Solution:
         distance = len(A)
         for i in range(len(A)):
             if A[i] in value_index_hashmap:
-                # value_index_hashmap[A[i]].extend(i)
                 if abs(value_index_hashmap[A[i]] - i ) < distance:
                     distance = abs(value_index_hashmap[A[i]] - i )
                     value_index_hashmap[A[i]] = i

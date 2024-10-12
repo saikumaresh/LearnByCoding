@@ -62,3 +62,17 @@ class Solution:
         A = A[:i + 1] + sorted(A[i + 1:])
 
         return ''.join(A)
+
+# Example run
+sol = Solution()
+input_num = "218765"
+result = sol.solve(input_num)
+print(f"The next similar number greater than {input_num} is {result}")
+# The next similar number greater than 218765 is 251678
+
+# Explanation:
+# Step 1: Starting from the right, we find that 7 (at index 2) is smaller than 6 (at index 1). So, i = 1.
+# Step 2: Find the smallest digit greater than 6 in the remaining digits (765). The smallest greater digit is 8, so j = 4.
+# Step 3: Swap 6 and 8, giving us 218865.
+# Step 4: Sort the digits after position 1, resulting in 251678.
+# Thus, the smallest number greater than 218765 is 251678.

@@ -35,17 +35,30 @@
 #  The given number is the largest possible number with given set of digits so we will return -1.
 
 class Solution:
+    # @param A : string
+    # @return a string
     def solve(self, A):
         n = len(A)
         A = list(A)
+
+        # Step 1: Find the first decreasing digit from the right
         i = n - 2
         while i >= 0 and A[i] >= A[i + 1]:
             i -= 1
+
+        # If no such index is found, it means A is the largest permutation
         if i == -1:
             return "-1"
+
+        # Step 2: Find the smallest digit greater than A[i] to the right
         j = n - 1
         while A[j] <= A[i]:
             j -= 1
+
+        # Step 3: Swap A[i] and A[j]
         A[i], A[j] = A[j], A[i]
+
+        # Step 4: Sort the digits after index i
         A = A[:i + 1] + sorted(A[i + 1:])
+
         return ''.join(A)

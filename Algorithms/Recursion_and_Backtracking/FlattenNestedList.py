@@ -4,13 +4,13 @@
 # The recursive step calls the recursive function with the nested list element as input.
 
 def flatten(arr):
-    result = []
-    for i in arr:
-        if type(i) == list:
+    result = []  # Initialize an empty list to hold the flattened elements
+    for i in arr:  # Iterate through each element in the array
+        if type(i) == list:  # If an element is a list, flatten it recursively
             result += flatten(i)
         else:
-            result += i
-    return result
+            result += i  # If the element is not a list, add it to the result
+    return result  # Return the flattened list
 
-print(flatten(['a', ['b', ['c', ['d']], 'e'], 'f']))
-# returns ['a', 'b', 'c', 'd', 'e', 'f']
+# Example of a nested list with strings
+print(flatten(['a', ['b', ['c', ['d']], 'e'], 'f']))  # Output: ['a', 'b', 'c', 'd', 'e', 'f']

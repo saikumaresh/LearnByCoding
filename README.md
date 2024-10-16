@@ -17,7 +17,7 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 
 🐍 Total Number of Python files: 66 
 
-📜 Total Number of Lines of Code: 4375 
+📜 Total Number of Lines of Code: 4437 
 
 <!-- metrics-section-end -->
 

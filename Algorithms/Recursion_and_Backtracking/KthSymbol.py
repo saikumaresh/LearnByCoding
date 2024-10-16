@@ -61,11 +61,10 @@ class Solution:
         else:
             return parent
 
-# Solution Approach
+# Solution Approach:
 # The key observation is that the pattern in each row follows a recursive structure. The value at position B in row A can be derived from its "parent" in row A-1:
 
 # Parent Concept:
-
 # Every position B in row A has a "parent" in row A-1. The parent position is at index (B+1)//2.
 # If B is odd, the symbol at B is the same as its parent.
 # If B is even, the symbol at B is the opposite of its parent (i.e., 0 becomes 1, and 1 becomes 0).

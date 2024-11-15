@@ -25,7 +25,10 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 
 ## 📂 Repository Structure
 
-The repository is structured based on the type of problems or topics I am working on. Here's a general idea of the structure:
+<!-- Directory structure will be auto-populated here by the script -->
+
+
+*This section is automated using update_metrics.py and github actions.*
 
 ```
 ├── Python/

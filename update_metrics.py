@@ -67,5 +67,52 @@ def update_readme():
     with open(readme_path, 'w', encoding='utf-8') as f:
         f.writelines(content)
 
+def generate_repo_structure(repo_path):
+    """
+    Generate repository structure in 'DirectoryName(FileCount)' format.
+    """
+    structure_lines = []
+    for root, dirs, files in os.walk(repo_path):
+        dirs[:] = [d for d in dirs if not d.startswith('.')]
+        files = [f for f in files if not f.startswith('.')]
+        level = root.replace(repo_path, "").count(os.sep)
+        indent = "  " * level
+        folder_name = os.path.basename(root) or "Root"
+        file_count = len(files)
+        structure_lines.append(f"{indent}- {folder_name} ({file_count})")
+    return structure_lines
+
+def update_readme_repo(repo_path, readme_file):
+    """
+    Update README with metrics and repository structure.
+    """
+    # Generate repository structure
+    structure_lines = generate_repo_structure(repo_path)
+
+    with open(readme_file, "r") as f:
+        content = f.readlines()
+
+    # Update Metrics Section (if needed)
+
+    # Update Repository Structure Section
+    start_marker = "## 📂 Repository Structure\n"
+    start_idx = content.index(start_marker) + 1
+    end_idx = start_idx
+    while end_idx < len(content) and content[end_idx].startswith("  "):
+        end_idx += 1
+
+    # Replace with new structure
+    updated_content = (
+        content[:start_idx]
+        + [line + "\n" for line in structure_lines]
+        + content[end_idx:]
+    )
+
+    with open(readme_file, "w") as f:
+        f.writelines(updated_content)
+
 if __name__ == '__main__':
     update_readme()
+    repo_path = "."  # Repository root
+    readme_file = "README.md"
+    update_readme_repo(repo_path, readme_file)

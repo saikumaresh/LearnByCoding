@@ -82,35 +82,6 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 ```
 <!-- END OF DIRECTORY STRUCTURE -->
 
-```
-├── Python/
-├── SQL/
-├── Time_Complexity/
-├── Data_Structures/
-│   ├── Arrays_and_Strings/
-│   ├── Linked_Lists/
-│   ├── Stacks_and_Queues/
-│   ├── Trees/
-│   ├── Heaps_and_Priority_Queues/
-│   ├── Graphs/
-│   ├── Hashing/
-│   ├── Math/
-│   ├── Advanced_Data_Structures/
-│   ├── Strings_and_Pattern_Matching/
-│   └── Bit_Manipulation/
-├── Algorithms/
-│   ├── Sorting_and_Searching/
-│   ├── Recursion_and_Backtracking/
-│   ├── Dynamic_Programming/
-│   ├── Greedy_Algorithms/
-│   ├── Divide_and_Conquer/
-│   ├── Graph_Algorithms/
-│   ├── Mathematical_Algorithms/
-│   ├── Number_Theory/
-│   ├── Two_Pointer_and_Sliding_Window/
-└── Miscellaneous/
-```
-
 ## 📊 Problems Covered
 
 - **Data Structures**: 

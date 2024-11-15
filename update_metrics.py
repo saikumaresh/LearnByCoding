@@ -72,19 +72,19 @@ def count_files_in_directory(directory):
         for file in files if file != '.gitkeep'
     )
 
-def generate_directory_structure(directory, prefix=''):
-    """Generates a neatly formatted directory structure with file counts, excluding .gitkeep files."""
+def generate_directory_structure(directory, prefix='', is_last=True):
+    """Generates a neatly formatted directory structure with file counts, excluding .gitkeep files and certain directories."""
     structure = ''
-    items = sorted(os.listdir(directory))
+    items = sorted([item for item in os.listdir(directory) if item not in ['.git', '.github']])
     for index, item in enumerate(items):
         item_path = os.path.join(directory, item)
+        connector = '└── ' if index == len(items) - 1 else '├── '
         if os.path.isdir(item_path):
             file_count = count_files_in_directory(item_path)
             count_display = f' ({file_count})' if file_count > 0 else ''
-            connector = '└── ' if index == len(items) - 1 else '├── '
             structure += f"{prefix}{connector}{item}/{count_display}\n"
             extension = '    ' if index == len(items) - 1 else '│   '
-            structure += generate_directory_structure(item_path, prefix + extension)
+            structure += generate_directory_structure(item_path, prefix + extension, is_last=(index == len(items) - 1))
     return structure
 
 def update_readme_structure():
@@ -92,6 +92,7 @@ def update_readme_structure():
     base_path = get_repo_root()
     structure = generate_directory_structure(base_path)
     readme_path = os.path.join(base_path, 'README.md')
+    
     with open(readme_path, 'r') as readme_file:
         lines = readme_file.readlines()
 

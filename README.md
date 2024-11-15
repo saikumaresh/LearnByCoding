@@ -30,6 +30,10 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 
 *This section is automated using update_metrics.py and github actions.*
 
+<!-- START OF DIRECTORY STRUCTURE -->
+
+<!-- END OF DIRECTORY STRUCTURE -->
+
 ```
 ├── Python/
 ├── SQL/

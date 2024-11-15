@@ -68,11 +68,14 @@ def update_readme():
         f.writelines(content)
 
 def count_files_in_directory(directory):
-    """Counts the number of files in the specified directory and its subdirectories."""
-    return sum([len(files) for _, _, files in os.walk(directory)])
+    """Counts the number of valid files in the specified directory, excluding .gitkeep files."""
+    return sum(
+        1 for root, _, files in os.walk(directory)
+        for file in files if file != '.gitkeep'
+    )
 
 def generate_directory_structure(directory, prefix=''):
-    """Generates a string representing the directory structure with file counts."""
+    """Generates a neatly formatted directory structure with file counts, excluding .gitkeep files."""
     structure = ''
     items = sorted(os.listdir(directory))
     for index, item in enumerate(items):
@@ -107,10 +110,6 @@ def update_readme_structure():
 
     with open(readme_path, 'w') as readme_file:
         readme_file.writelines(updated_lines)
-
-if __name__ == '__main__':
-    update_readme_structure()
-
 
 if __name__ == '__main__':
     update_readme()

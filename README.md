@@ -17,13 +17,41 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 
 🐍 Total Number of Python files: 127 
 
-📜 Total Number of Lines of Code: 11580 
+📜 Total Number of Lines of Code: 11608 
 
 <!-- metrics-section-end -->
 
 *This section is automated using update_metrics.py and github actions.*
 
 ## 📂 Repository Structure
+- . (2)
+  - Miscellaneous (2)
+  - Data_Structures (0)
+    - Hashing (14)
+    - Trees (22)
+    - Math (5)
+    - Bit_Manipulation (3)
+    - Heaps_and_Priority_Queues (1)
+    - Stacks_and_Queues (4)
+    - Strings_and_Pattern_Matching (0)
+    - Linked_Lists (12)
+    - Arrays_and_Strings (32)
+    - Advanced_Data_Structures (0)
+    - Graphs (1)
+  - SQL (0)
+  - Time_Complexity (0)
+  - Algorithms (0)
+    - Dynamic_Programming (1)
+    - Graph_Algorithms (1)
+    - Recursion_and_Backtracking (15)
+    - Mathematical_Algorithms (0)
+    - Number_Theory (0)
+    - Divide_and_Conquer (0)
+    - Greedy_Algorithms (1)
+    - Subarray (8)
+    - Sorting_and_Searching (0)
+    - Two_Pointer_and_Sliding_Window (5)
+  - Python (0)
 - . (2)
   - Miscellaneous (2)
   - Data_Structures (0)

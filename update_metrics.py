@@ -106,39 +106,5 @@ def format_directory_structure(directory_structure):
             formatted_structure += f"{indent}├── {folder_name}/ ({count})\n"
     return formatted_structure
 
-def update_readme_repo():
-    base_path = get_repo_root()
-    directory_structure = count_files_and_directories(base_path)
-
-    readme_path = os.path.join(base_path, 'README.md')
-    try:
-        with open(readme_path, 'r', encoding='utf-8') as f:
-            content = f.readlines()
-    except FileNotFoundError:
-        print(f"{readme_path} not found!")
-        return
-
-    try:
-        start_index = content.index('<!-- metrics-section-start -->\n') + 1
-        end_index = content.index('<!-- metrics-section-end -->\n')
-    except ValueError:
-        print("Metrics section markers not found in README.md.")
-        return
-
-    # Prepare the metrics content
-    metrics_content = [
-        f'📁 Total Number of Files: {sum(1 for f in directory_structure.values() if f > 0)}\n',
-        f'📂 Total Number of Directories: {len(directory_structure)}\n',
-        f'\n## 📂 Repository Structure\n\n' + format_directory_structure(directory_structure)
-    ]
-    
-    # Update the README content by replacing the old metrics section
-    content[start_index:end_index] = metrics_content
-
-    # Write the updated content to the README file
-    with open(readme_path, 'w', encoding='utf-8') as f:
-        f.writelines(content)
-
 if __name__ == '__main__':
     update_readme()
-    update_readme_repo()

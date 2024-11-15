@@ -148,8 +148,8 @@ Happy coding! 😊🚀
   <a href="https://leetcode.com/u/saikumaresh/" target="_blank" title="LeetCode" style="margin: 0 15px;">
     <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white" alt="LeetCode" height="40" style="margin-right: 10px;" />
   </a>
-  <a href="https://saikumaresh.github.io/" target="_blank" title="Website" style="margin: 0 15px;">
-    <img src="https://img.shields.io/badge/-Website-4285F4?style=flat&logo=google-chrome&logoColor=white" alt="Website" height="40" style="margin-right: 10px;" />
+  <a href="https://saikumaresh.github.io/" target="_blank" title="Portfolio" style="margin: 0 15px;">
+    <img src="https://img.shields.io/badge/-Portfolio-4285F4?style=flat&logo=google-chrome&logoColor=white" alt="Portfolio" height="40" style="margin-right: 10px;" />
   </a>
 </p>
 

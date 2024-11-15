@@ -88,7 +88,7 @@ def generate_directory_structure(directory, prefix=''):
     return structure
 
 def update_readme_structure():
-    """Updates the README.md file with the directory structure and file counts."""
+    """Updates the README.md file with the directory structure and file counts, formatted as a code block."""
     base_path = get_repo_root()
     structure = generate_directory_structure(base_path)
     readme_path = os.path.join(base_path, 'README.md')
@@ -105,7 +105,9 @@ def update_readme_structure():
         print("Markers not found in README.md. Please ensure the markers are present.")
         return
 
-    updated_lines = lines[:start_idx] + [structure] + lines[end_idx:]
+    # Wrap the structure in triple backticks for code block formatting
+    updated_structure = ['```\n'] + structure.splitlines(keepends=True) + ['\n```\n']
+    updated_lines = lines[:start_idx] + updated_structure + lines[end_idx:]
 
     with open(readme_path, 'w') as readme_file:
         readme_file.writelines(updated_lines)

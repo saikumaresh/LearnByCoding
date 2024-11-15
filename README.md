@@ -130,4 +130,26 @@ Happy coding! 😊🚀
 
 💡 If you're interested in discussing software development, Python, networking, cybersecurity, or Salesforce, feel free to reach out or email me at saikumaresh007@gmail.com. I'm always open to discussing new projects, opportunities, and collaborations!
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/saikumaresh)    [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg' alt='dev' height='40'>](https://dev.to/sai_kumaresh)    [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/sai-kumaresh//)        [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg' alt='medium' height='40'>](https://medium.com/@saikumaresh)    [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/leetcode.svg' alt='leetcode' height='40'>](https://leetcode.com/u/saikumaresh/)    [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://saikumaresh.github.io/)
+## Social Profiles
+
+<p align="center">
+  <a href="https://github.com/saikumaresh" target="_blank" title="GitHub" style="margin: 0 15px;">
+    <img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" height="40" style="margin-right: 10px;" />
+  </a>
+  <a href="https://dev.to/sai_kumaresh" target="_blank" title="DEV.to" style="margin: 0 15px;">
+    <img src="https://img.shields.io/badge/-DEV.to-0A0A0A?style=flat&logo=dev.to&logoColor=white" alt="Dev.to" height="40" style="margin-right: 10px;" />
+  </a>
+  <a href="https://www.linkedin.com/in/sai-kumaresh/" target="_blank" title="LinkedIn" style="margin: 0 15px;">
+    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" height="40" style="margin-right: 10px;" />
+  </a>
+  <a href="https://medium.com/@saikumaresh" target="_blank" title="Medium" style="margin: 0 15px;">
+    <img src="https://img.shields.io/badge/-Medium-12100E?style=flat&logo=medium&logoColor=white" alt="Medium" height="40" style="margin-right: 10px;" />
+  </a>
+  <a href="https://leetcode.com/u/saikumaresh/" target="_blank" title="LeetCode" style="margin: 0 15px;">
+    <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white" alt="LeetCode" height="40" style="margin-right: 10px;" />
+  </a>
+  <a href="https://saikumaresh.github.io/" target="_blank" title="Website" style="margin: 0 15px;">
+    <img src="https://img.shields.io/badge/-Website-4285F4?style=flat&logo=google-chrome&logoColor=white" alt="Website" height="40" style="margin-right: 10px;" />
+  </a>
+</p>
+

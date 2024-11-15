@@ -67,44 +67,5 @@ def update_readme():
     with open(readme_path, 'w', encoding='utf-8') as f:
         f.writelines(content)
 
-
-def count_files_and_directories(base_path):
-    directory_structure = {}  # To store the directory structure and file count
-
-    for dirpath, dirnames, filenames in os.walk(base_path):
-        # Skip hidden files and directories
-        dirnames[:] = [d for d in dirnames if not d.startswith('.')]
-        filenames = [f for f in filenames if not f.startswith('.')]
-
-        if dirpath == base_path:
-            # Skip the root directory itself from being added to the structure
-            continue
-
-        file_count = len(filenames)
-        if file_count > 0:
-            directory_structure[dirpath] = file_count
-        else:
-            subdirs = [d for d in dirnames if os.path.isdir(os.path.join(dirpath, d))]
-            if subdirs:
-                directory_structure[dirpath] = len(subdirs)
-            else:
-                directory_structure[dirpath] = 0
-
-    return directory_structure
-
-def format_directory_structure(directory_structure):
-    formatted_structure = ""
-    for directory, count in directory_structure.items():
-        # Split the directory path into parts
-        parts = directory.split(os.sep)
-        indent = "│   " * (len(parts) - 1)
-        folder_name = parts[-1]
-
-        if count == 0:
-            formatted_structure += f"{indent}└── {folder_name}/\n"
-        else:
-            formatted_structure += f"{indent}├── {folder_name}/ ({count})\n"
-    return formatted_structure
-
 if __name__ == '__main__':
     update_readme()

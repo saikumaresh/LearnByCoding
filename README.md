@@ -17,7 +17,7 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 
 🐍 Total Number of Python files: 127 
 
-📜 Total Number of Lines of Code: 12249 
+📜 Total Number of Lines of Code: 12295 
 
 <!-- metrics-section-end -->
 
@@ -130,6 +130,52 @@ Happy coding! 😊🚀
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/saikumaresh)    [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg' alt='dev' height='40'>](https://dev.to/sai_kumaresh)    [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/sai-kumaresh//)        [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg' alt='medium' height='40'>](https://medium.com/@saikumaresh)    [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/leetcode.svg' alt='leetcode' height='40'>](https://leetcode.com/u/saikumaresh/)    [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://saikumaresh.github.io/)
 
+├── .git (29)
+│   ├── branches
+│   ├── hooks (14)
+│   ├── info (1)
+│   ├── logs (3)
+│   │   ├── refs (2)
+│   │   │   ├── heads (1)
+│   │   │   ├── remotes (1)
+│   │   │   │   ├── origin (1)
+│   ├── objects (3)
+│   │   ├── info
+│   │   ├── pack (3)
+│   ├── refs (2)
+│   │   ├── heads (1)
+│   │   ├── remotes (1)
+│   │   │   ├── origin (1)
+│   │   ├── tags
+├── .github (1)
+│   ├── workflows (1)
+├── Algorithms (40)
+│   ├── Divide_and_Conquer (1)
+│   ├── Dynamic_Programming (2)
+│   ├── Graph_Algorithms (2)
+│   ├── Greedy_Algorithms (2)
+│   ├── Mathematical_Algorithms (1)
+│   ├── Number_Theory (1)
+│   ├── Recursion_and_Backtracking (16)
+│   ├── Sorting_and_Searching (1)
+│   ├── Subarray (8)
+│   ├── Two_Pointer_and_Sliding_Window (6)
+├── Data_Structures (104)
+│   ├── Advanced_Data_Structures (1)
+│   ├── Arrays_and_Strings (33)
+│   ├── Bit_Manipulation (4)
+│   ├── Graphs (2)
+│   ├── Hashing (15)
+│   ├── Heaps_and_Priority_Queues (2)
+│   ├── Linked_Lists (13)
+│   ├── Math (5)
+│   ├── Stacks_and_Queues (5)
+│   ├── Strings_and_Pattern_Matching (1)
+│   ├── Trees (23)
+├── Miscellaneous (3)
+├── Python (1)
+├── SQL (1)
+├── Time_Complexity (1)
 ├── .git (29)
 │   ├── branches
 │   ├── hooks (14)

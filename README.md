@@ -27,9 +27,6 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 
 <!-- Directory structure will be auto-populated here by the script -->
 
-
-*This section is automated using update_metrics.py and github actions.*
-
 <!-- START OF DIRECTORY STRUCTURE -->
 ```
 ├── Algorithms/ (31)
@@ -62,6 +59,8 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 
 ```
 <!-- END OF DIRECTORY STRUCTURE -->
+
+*This section is automated using update_metrics.py and github actions.*
 
 ## 📊 Problems Covered
 

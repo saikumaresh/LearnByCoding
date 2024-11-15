@@ -93,7 +93,6 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 
 - **Miscellaneous**: Additional coding challenges and projects
 
-
 ## 🚀 How to Use This Repository
 
 Feel free to explore the folders, and check out the codes. You can clone this repository using:

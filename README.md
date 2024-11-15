@@ -17,7 +17,7 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 
 🐍 Total Number of Python files: 127 
 
-📜 Total Number of Lines of Code: 13717 
+📜 Total Number of Lines of Code: 13719 
 
 <!-- metrics-section-end -->
 
@@ -31,6 +31,7 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 *This section is automated using update_metrics.py and github actions.*
 
 <!-- START OF DIRECTORY STRUCTURE -->
+```
 ├── .git/ (29)
 │   ├── branches/
 │   ├── hooks/ (14)
@@ -77,6 +78,8 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 ├── Python/
 ├── SQL/
 ├── Time_Complexity/
+
+```
 <!-- END OF DIRECTORY STRUCTURE -->
 
 ```

@@ -67,6 +67,7 @@ def update_readme():
     with open(readme_path, 'w', encoding='utf-8') as f:
         f.writelines(content)
 
+
 def count_files_and_directories(base_path):
     directory_structure = {}  # To store the directory structure and file count
 
@@ -124,16 +125,17 @@ def update_readme_repo():
         print("Metrics section markers not found in README.md.")
         return
 
+    # Prepare the metrics content
     metrics_content = [
-        f'📁 Total Number of Files: {sum(1 for f in directory_structure.values() if f > 0)} \n','\n',
-        f'📂 Total Number of Directories: {len(directory_structure)} \n','\n',
+        f'📁 Total Number of Files: {sum(1 for f in directory_structure.values() if f > 0)}\n',
+        f'📂 Total Number of Directories: {len(directory_structure)}\n',
+        f'\n## 📂 Repository Structure\n\n' + format_directory_structure(directory_structure)
     ]
+    
+    # Update the README content by replacing the old metrics section
     content[start_index:end_index] = metrics_content
 
-    repo_structure_content = "## 📂 Repository Structure\n\n" + format_directory_structure(directory_structure)
-
-    content.append(repo_structure_content)
-
+    # Write the updated content to the README file
     with open(readme_path, 'w', encoding='utf-8') as f:
         f.writelines(content)
 

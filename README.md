@@ -11,13 +11,13 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 ## 📈 Metrics Section
 
 <!-- metrics-section-start -->
-📁 Total Number of Files: 129 
+📁 Total Number of Files: 132 
 
 📂 Total Number of Directories: 28 
 
-🐍 Total Number of Python files: 127 
+🐍 Total Number of Python files: 130 
 
-📜 Total Number of Lines of Code: 10934 
+📜 Total Number of Lines of Code: 11232 
 
 <!-- metrics-section-end -->
 
@@ -40,10 +40,10 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 │   ├── Sorting_and_Searching/
 │   ├── Subarray/ (8)
 │   └── Two_Pointer_and_Sliding_Window/ (5)
-├── Data_Structures/ (94)
+├── Data_Structures/ (97)
 │   ├── Advanced_Data_Structures/
 │   ├── Arrays_and_Strings/ (32)
-│   ├── Bit_Manipulation/ (3)
+│   ├── Bit_Manipulation/ (6)
 │   ├── Graphs/ (1)
 │   ├── Hashing/ (14)
 │   ├── Heaps_and_Priority_Queues/ (1)

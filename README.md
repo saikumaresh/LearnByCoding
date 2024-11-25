@@ -11,13 +11,13 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 ## 📈 Metrics Section
 
 <!-- metrics-section-start -->
-📁 Total Number of Files: 132 
+📁 Total Number of Files: 140 
 
-📂 Total Number of Directories: 28 
+📂 Total Number of Directories: 30 
 
-🐍 Total Number of Python files: 130 
+🐍 Total Number of Python files: 137 
 
-📜 Total Number of Lines of Code: 11232 
+📜 Total Number of Lines of Code: 12026 
 
 <!-- metrics-section-end -->
 
@@ -29,9 +29,9 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 
 <!-- START OF DIRECTORY STRUCTURE -->
 ```
-├── Algorithms/ (31)
+├── Algorithms/ (32)
 │   ├── Divide_and_Conquer/
-│   ├── Dynamic_Programming/ (1)
+│   ├── Dynamic_Programming/ (2)
 │   ├── Graph_Algorithms/ (1)
 │   ├── Greedy_Algorithms/ (1)
 │   ├── Mathematical_Algorithms/
@@ -40,11 +40,11 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 │   ├── Sorting_and_Searching/
 │   ├── Subarray/ (8)
 │   └── Two_Pointer_and_Sliding_Window/ (5)
-├── Data_Structures/ (97)
+├── Data_Structures/ (100)
 │   ├── Advanced_Data_Structures/
 │   ├── Arrays_and_Strings/ (32)
 │   ├── Bit_Manipulation/ (6)
-│   ├── Graphs/ (1)
+│   ├── Graphs/ (4)
 │   ├── Hashing/ (14)
 │   ├── Heaps_and_Priority_Queues/ (1)
 │   ├── Linked_Lists/ (12)
@@ -52,9 +52,11 @@ I strive to solve at least one problem each day as part of my **365 Days of Code
 │   ├── Stacks_and_Queues/ (4)
 │   ├── Strings_and_Pattern_Matching/
 │   └── Trees/ (22)
+├── LeetCode150/ (3)
 ├── Miscellaneous/ (2)
 ├── Python/
-├── SQL/
+├── SQL/ (1)
+│   └── Leetcode SQL 50/ (1)
 ├── Time_Complexity/
 
 ```
